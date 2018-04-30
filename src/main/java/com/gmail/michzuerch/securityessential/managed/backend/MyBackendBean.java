@@ -18,7 +18,7 @@ package com.gmail.michzuerch.securityessential.managed.backend;
 import org.springframework.stereotype.Service;
 
 /**
- * Implementation of {@link MyBackend}.
+ * Implementation of {@link com.gmail.michzuerch.securityessential.managed.backend.MyBackend}.
  *
  * @author Petter Holmström (petter@vaadin.com)
  */

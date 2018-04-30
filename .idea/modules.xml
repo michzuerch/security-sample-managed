@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/security-sample-managed.iml" filepath="$PROJECT_DIR$/security-sample-managed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/securityessential.iml" filepath="$PROJECT_DIR$/securityessential.iml" />
     </modules>
   </component>
 </project>

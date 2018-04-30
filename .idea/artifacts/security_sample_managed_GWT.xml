@@ -2,7 +2,7 @@
   <artifact name="security-sample-managed:GWT">
     <output-path>$PROJECT_DIR$/src/main/resources/VAADIN/widgetsets</output-path>
     <root id="root">
-      <element id="gwt-compiler-output" facet="security-sample-managed/gwt/GWT" />
+      <element id="gwt-compiler-output" facet="securityessential/gwt/GWT" />
     </root>
   </artifact>
 </component>
