@@ -15,10 +15,10 @@
  */
 package com.gmail.michzuerch.securityessential.managed.operations;
 
+import com.gmail.michzuerch.securityessential.managed.Sections;
 import com.vaadin.server.FontAwesome;
 import com.vaadin.spring.annotation.SpringComponent;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.gmail.michzuerch.securityessential.managed.Sections;
 import org.vaadin.spring.security.VaadinSecurity;
 import org.vaadin.spring.sidebar.annotation.FontAwesomeIcon;
 import org.vaadin.spring.sidebar.annotation.SideBarItem;

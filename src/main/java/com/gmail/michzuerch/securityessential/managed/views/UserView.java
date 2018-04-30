@@ -15,6 +15,8 @@
  */
 package com.gmail.michzuerch.securityessential.managed.views;
 
+import com.gmail.michzuerch.securityessential.managed.Sections;
+import com.gmail.michzuerch.securityessential.managed.backend.MyBackend;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
 import com.vaadin.server.FontAwesome;
@@ -24,8 +26,6 @@ import com.vaadin.ui.CustomComponent;
 import com.vaadin.ui.Notification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
-import com.gmail.michzuerch.securityessential.managed.Sections;
-import com.gmail.michzuerch.securityessential.managed.backend.MyBackend;
 import org.vaadin.spring.sidebar.annotation.FontAwesomeIcon;
 import org.vaadin.spring.sidebar.annotation.SideBarItem;
 

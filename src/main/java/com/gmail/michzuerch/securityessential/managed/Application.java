@@ -36,8 +36,8 @@ import org.vaadin.spring.security.annotation.EnableVaadinSharedSecurity;
 import org.vaadin.spring.security.config.VaadinSharedSecurityConfiguration;
 import org.vaadin.spring.security.shared.VaadinAuthenticationSuccessHandler;
 import org.vaadin.spring.security.shared.VaadinSessionClosingLogoutHandler;
-import org.vaadin.spring.security.web.VaadinRedirectStrategy;
 import org.vaadin.spring.security.shared.VaadinUrlAuthenticationSuccessHandler;
+import org.vaadin.spring.security.web.VaadinRedirectStrategy;
 
 /**
  * Main entry point into the demo application.
@@ -84,7 +84,7 @@ public class Application {
         }
 
         @Override
-        public void configure(WebSecurity web) throws Exception {
+        public void configure(WebSecurity web) {
             web.ignoring().antMatchers("/VAADIN/**");
         }
 

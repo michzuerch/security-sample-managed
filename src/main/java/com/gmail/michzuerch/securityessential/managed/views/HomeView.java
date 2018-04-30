@@ -15,6 +15,7 @@
  */
 package com.gmail.michzuerch.securityessential.managed.views;
 
+import com.gmail.michzuerch.securityessential.managed.Sections;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
 import com.vaadin.server.FontAwesome;
@@ -23,7 +24,6 @@ import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.themes.ValoTheme;
-import com.gmail.michzuerch.securityessential.managed.Sections;
 import org.vaadin.spring.sidebar.annotation.FontAwesomeIcon;
 import org.vaadin.spring.sidebar.annotation.SideBarItem;
 
